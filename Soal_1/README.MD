@@ -1,11 +1,20 @@
-# Abaikan folder cache Python
-__pycache__/
-*.py[cod]
+# TCP Echo Server Sederhana
 
-# Abaikan virtual environment (jika pakai)
-env/
-venv/
-.env
+Proyek ini adalah implementasi dasar Socket Programming menggunakan Python.
+Server akan menerima pesan dari client dan mengirimkannya kembali (echo).
 
-# Abaikan file notebook checkpoints
-.ipynb_checkpoints/
+## Cara Menjalankan
+
+1. **Jalankan Server:**
+   ```bash
+   python server.py
+   ```
+2. **Jalankan Client:**
+   (Buka terminal baru)
+   ```bash
+   python client.py
+   ```
+
+## Teknologi
+* Python 3
+* Library: socket, threading (bawaan)
